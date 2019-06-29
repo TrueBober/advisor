@@ -6,7 +6,6 @@ import ru.kiporskiy.advisor.Many
  * Множество альтернатив для попарного сравнения.
  */
 data class PairwiseMany(
-
     /**
      * Список всех доступных вариантов.
      */
