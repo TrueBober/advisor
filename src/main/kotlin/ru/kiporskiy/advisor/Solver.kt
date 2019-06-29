@@ -6,8 +6,8 @@ package ru.kiporskiy.advisor
 interface Solver<T : Alternative> {
 
     /**
-     * Из всех вариантов выбрать наилучший.
+     * Из множества вариантов выбрать наилучшие.
      */
-    fun getBestsAlternatives(allAlternatives: Collection<T>): List<T>
+    fun getBestsAlternatives(manyAlternatives: Many<T>): List<T>
 
 }
